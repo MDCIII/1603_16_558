@@ -1,0 +1,789 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<urn:mdciii:1603:16()>
+    a skos:ConceptScheme ;
+    rdfs:label "(1603:16)" .
+
+<urn:mdciii:1603:16:558()>
+    a skos:Collection ;
+    rdfs:label "(1603:16:558)" ;
+    skos:inScheme <urn:mdciii:1603:16()> ;
+    skos:member <urn:mdciii:1603:16:558:2()> .
+
+<urn:mdciii:1603:16:558:2()>
+    a skos:Collection ;
+    rdfs:label "(1603:16:558:2)" ;
+    skos:member <urn:mdciii:1603:16:558:2:1005>, <urn:mdciii:1603:16:558:2:1010>, <urn:mdciii:1603:16:558:2:1012>, <urn:mdciii:1603:16:558:2:1015>, <urn:mdciii:1603:16:558:2:1020>, <urn:mdciii:1603:16:558:2:1025>, <urn:mdciii:1603:16:558:2:1030>, <urn:mdciii:1603:16:558:2:1035>, <urn:mdciii:1603:16:558:2:2005>, <urn:mdciii:1603:16:558:2:2010>, <urn:mdciii:1603:16:558:2:2015>, <urn:mdciii:1603:16:558:2:2020>, <urn:mdciii:1603:16:558:2:2025>, <urn:mdciii:1603:16:558:2:2030>, <urn:mdciii:1603:16:558:2:2035>, <urn:mdciii:1603:16:558:2:2040>, <urn:mdciii:1603:16:558:2:2045>, <urn:mdciii:1603:16:558:2:2505>, <urn:mdciii:1603:16:558:2:2510>, <urn:mdciii:1603:16:558:2:2515>, <urn:mdciii:1603:16:558:2:2520>, <urn:mdciii:1603:16:558:2:2525>, <urn:mdciii:1603:16:558:2:2530>, <urn:mdciii:1603:16:558:2:3000>, <urn:mdciii:1603:16:558:2:3005>, <urn:mdciii:1603:16:558:2:3015>, <urn:mdciii:1603:16:558:2:3020>, <urn:mdciii:1603:16:558:2:3025>, <urn:mdciii:1603:16:558:2:3030>, <urn:mdciii:1603:16:558:2:3035>, <urn:mdciii:1603:16:558:2:3040>, <urn:mdciii:1603:16:558:2:3045>, <urn:mdciii:1603:16:558:2:3050>, <urn:mdciii:1603:16:558:2:3055>, <urn:mdciii:1603:16:558:2:3060>, <urn:mdciii:1603:16:558:2:3065>, <urn:mdciii:1603:16:558:2:3505>, <urn:mdciii:1603:16:558:2:3510>, <urn:mdciii:1603:16:558:2:3515>, <urn:mdciii:1603:16:558:2:3520>, <urn:mdciii:1603:16:558:2:3525>, <urn:mdciii:1603:16:558:2:3530>, <urn:mdciii:1603:16:558:2:3535>, <urn:mdciii:1603:16:558:2:3540>, <urn:mdciii:1603:16:558:2:3545>, <urn:mdciii:1603:16:558:2:3550>, <urn:mdciii:1603:16:558:2:4005>, <urn:mdciii:1603:16:558:2:4010>, <urn:mdciii:1603:16:558:2:4015>, <urn:mdciii:1603:16:558:2:4020>, <urn:mdciii:1603:16:558:2:4025>, <urn:mdciii:1603:16:558:2:4030>, <urn:mdciii:1603:16:558:2:4035>, <urn:mdciii:1603:16:558:2:4040>, <urn:mdciii:1603:16:558:2:4045>, <urn:mdciii:1603:16:558:2:4050>, <urn:mdciii:1603:16:558:2:4055>, <urn:mdciii:1603:16:558:2:4060>, <urn:mdciii:1603:16:558:2:4065>, <urn:mdciii:1603:16:558:2:5005>, <urn:mdciii:1603:16:558:2:5010>, <urn:mdciii:1603:16:558:2:5015>, <urn:mdciii:1603:16:558:2:5020>, <urn:mdciii:1603:16:558:2:5025>, <urn:mdciii:1603:16:558:2:5030>, <urn:mdciii:1603:16:558:2:510>, <urn:mdciii:1603:16:558:2:515>, <urn:mdciii:1603:16:558:2:520>, <urn:mdciii:1603:16:558:2:525>, <urn:mdciii:1603:16:558:2:530>, <urn:mdciii:1603:16:558:2:535>, <urn:mdciii:1603:16:558:2:540>, <urn:mdciii:1603:16:558:2:545>, <urn:mdciii:1603:16:558:2:550>, <urn:mdciii:1603:16:558:2:5500>, <urn:mdciii:1603:16:558:2:5505>, <urn:mdciii:1603:16:558:2:5510>, <urn:mdciii:1603:16:558:2:5520>, <urn:mdciii:1603:16:558:2:5525>, <urn:mdciii:1603:16:558:2:5530>, <urn:mdciii:1603:16:558:2:5535>, <urn:mdciii:1603:16:558:2:5540>, <urn:mdciii:1603:16:558:2:5545>, <urn:mdciii:1603:16:558:2:555>, <urn:mdciii:1603:16:558:2:560>, <urn:mdciii:1603:16:558:2:6005>, <urn:mdciii:1603:16:558:2:6010>, <urn:mdciii:1603:16:558:2:6015>, <urn:mdciii:1603:16:558:2:6020>, <urn:mdciii:1603:16:558:2:6025>, <urn:mdciii:1603:16:558:2:6030>, <urn:mdciii:1603:16:558:2:6035>, <urn:mdciii:1603:16:558:2:6040>, <urn:mdciii:1603:16:558:2:6045>, <urn:mdciii:1603:16:558:2:6505>, <urn:mdciii:1603:16:558:2:6510>, <urn:mdciii:1603:16:558:2:6515>, <urn:mdciii:1603:16:558:2:6520>, <urn:mdciii:1603:16:558:2:6525>, <urn:mdciii:1603:16:558:2:6530>, <urn:mdciii:1603:16:558:2:6535>, <urn:mdciii:1603:16:558:2:6540>, <urn:mdciii:1603:16:558:2:6545>, <urn:mdciii:1603:16:558:2:6550>, <urn:mdciii:1603:16:558:2:7005>, <urn:mdciii:1603:16:558:2:7010>, <urn:mdciii:1603:16:558:2:7015>, <urn:mdciii:1603:16:558:2:7020>, <urn:mdciii:1603:16:558:2:7505>, <urn:mdciii:1603:16:558:2:7510>, <urn:mdciii:1603:16:558:2:7515>, <urn:mdciii:1603:16:558:2:7520>, <urn:mdciii:1603:16:558:2:7525>, <urn:mdciii:1603:16:558:2:7530>, <urn:mdciii:1603:16:558:2:7535>, <urn:mdciii:1603:16:558:2:7540>, <urn:mdciii:1603:16:558:2:8005>, <urn:mdciii:1603:16:558:2:8010>, <urn:mdciii:1603:16:558:2:8015>, <urn:mdciii:1603:16:558:2:8020>, <urn:mdciii:1603:16:558:2:8025>, <urn:mdciii:1603:16:558:2:8030>, <urn:mdciii:1603:16:558:2:8035>, <urn:mdciii:1603:16:558:2:8040>, <urn:mdciii:1603:16:558:2:8045>, <urn:mdciii:1603:16:558:2:8050>, <urn:mdciii:1603:16:558:2:8505>, <urn:mdciii:1603:16:558:2:8510>, <urn:mdciii:1603:16:558:2:8515>, <urn:mdciii:1603:16:558:2:8520>, <urn:mdciii:1603:16:558:2:8525>, <urn:mdciii:1603:16:558:2:8530>, <urn:mdciii:1603:16:558:2:9105>, <urn:mdciii:1603:16:558:2:9106>, <urn:mdciii:1603:16:558:2:9107>, <urn:mdciii:1603:16:558:2:9110>, <urn:mdciii:1603:16:558:2:9115>, <urn:mdciii:1603:16:558:2:9120>, <urn:mdciii:1603:16:558:2:9125>, <urn:mdciii:1603:16:558:2:9135>, <urn:mdciii:1603:16:558:2:9305>, <urn:mdciii:1603:16:558:2:9310>, <urn:mdciii:1603:16:558:2:9312>, <urn:mdciii:1603:16:558:2:9315>, <urn:mdciii:1603:16:558:2:9316>, <urn:mdciii:1603:16:558:2:9320>, <urn:mdciii:1603:16:558:2:9325>, <urn:mdciii:1603:16:558:2:9330>, <urn:mdciii:1603:16:558:2:9335>, <urn:mdciii:1603:16:558:2:9340>, <urn:mdciii:1603:16:558:2:9345>, <urn:mdciii:1603:16:558:2:9350> .
+
+<urn:mdciii:1603:16:558:2(1)>
+    a owl:Ontology .
+
+<urn:mdciii:1603:16:558:2:1005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1005" ;
+    skos:prefLabel "Wiwilí de Jinotega"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:1010>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1010" ;
+    skos:prefLabel "El Cuá"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:1012>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1012" ;
+    skos:prefLabel "San José de Bocay"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:1015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1015" ;
+    skos:prefLabel "Santa María de Pantasma"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:1020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1020" ;
+    skos:prefLabel "San Rafael del Norte"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:1025>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1025" ;
+    skos:prefLabel "San Sebastián de Yalí"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:1030>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1030" ;
+    skos:prefLabel "La Concordia"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:1035>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:1035" ;
+    skos:prefLabel "Jinotega"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2005" ;
+    skos:prefLabel "Somoto"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2010>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2010" ;
+    skos:prefLabel "Totogalpa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2015" ;
+    skos:prefLabel "Telpaneca"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2020" ;
+    skos:prefLabel "San Juan del Río Coco"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2025>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2025" ;
+    skos:prefLabel "Palacagüina"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2030>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2030" ;
+    skos:prefLabel "Yalagüina"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2035>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2035" ;
+    skos:prefLabel "San Lucas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2040>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2040" ;
+    skos:prefLabel "Las Sabanas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2045>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2045" ;
+    skos:prefLabel "San José de Cusmapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2505" ;
+    skos:prefLabel "Pueblo Nuevo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2510" ;
+    skos:prefLabel "Condega"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2515" ;
+    skos:prefLabel "Estelí"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2520" ;
+    skos:prefLabel "San Juan de Limay"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2525" ;
+    skos:prefLabel "La Trinidad"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:2530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:2530" ;
+    skos:prefLabel "San Nicolás"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3000>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3000" ;
+    skos:prefLabel "San Francisco del Norte"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3005" ;
+    skos:prefLabel "San Pedro del Norte"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3015" ;
+    skos:prefLabel "Cinco Pinos"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3020" ;
+    skos:prefLabel "Santo Tomás del Norte"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3025>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3025" ;
+    skos:prefLabel "El Viejo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3030>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3030" ;
+    skos:prefLabel "Puerto Morazán"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3035>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3035" ;
+    skos:prefLabel "Somotillo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3040>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3040" ;
+    skos:prefLabel "Villanueva"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3045>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3045" ;
+    skos:prefLabel "Chinandega"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3050>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3050" ;
+    skos:prefLabel "El Realejo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3055>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3055" ;
+    skos:prefLabel "Corinto"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3060>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3060" ;
+    skos:prefLabel "Chichigalpa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3065>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3065" ;
+    skos:prefLabel "Posoltega"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3505" ;
+    skos:prefLabel "Achuapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3510" ;
+    skos:prefLabel "El Sauce"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3515" ;
+    skos:prefLabel "Santa Rosa del Peñón"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3520" ;
+    skos:prefLabel "El Jicaral"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3525" ;
+    skos:prefLabel "Larreynaga"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3530" ;
+    skos:prefLabel "Telica"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3535>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3535" ;
+    skos:prefLabel "Quezalguaque"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3540>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3540" ;
+    skos:prefLabel "León"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3545>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3545" ;
+    skos:prefLabel "La Paz Centro"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:3550>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:3550" ;
+    skos:prefLabel "Nagarote"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4005" ;
+    skos:prefLabel "Rancho Grande"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4010>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4010" ;
+    skos:prefLabel "Río Blanco"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4015" ;
+    skos:prefLabel "El Tuma - La Dalia"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4020" ;
+    skos:prefLabel "San Isidro"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4025>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4025" ;
+    skos:prefLabel "Sébaco"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4030>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4030" ;
+    skos:prefLabel "Matagalpa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4035>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4035" ;
+    skos:prefLabel "San Ramón"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4040>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4040" ;
+    skos:prefLabel "Matiguás"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4045>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4045" ;
+    skos:prefLabel "Muy Muy"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4050>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4050" ;
+    skos:prefLabel "Esquipulas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4055>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4055" ;
+    skos:prefLabel "San Dionisio"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4060>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4060" ;
+    skos:prefLabel "Terrabona"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:4065>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:4065" ;
+    skos:prefLabel "Ciudad Darío"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5005" ;
+    skos:prefLabel "San José de Los Remates"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5010>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5010" ;
+    skos:prefLabel "Boaco"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5015" ;
+    skos:prefLabel "Camoapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5020" ;
+    skos:prefLabel "Santa Lucía"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5025>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5025" ;
+    skos:prefLabel "Teustepe"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5030>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5030" ;
+    skos:prefLabel "San Lorenzo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:505" ;
+    skos:prefLabel "Jalapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:510" ;
+    skos:prefLabel "Murra"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:515" ;
+    skos:prefLabel "Jícaro"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:520" ;
+    skos:prefLabel "San Fernando"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:525" ;
+    skos:prefLabel "Mozonte"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:530" ;
+    skos:prefLabel "Dipilto"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:535>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:535" ;
+    skos:prefLabel "Macuelizo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:540>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:540" ;
+    skos:prefLabel "Santa María"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:545>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:545" ;
+    skos:prefLabel "Ocotal"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:550>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:550" ;
+    skos:prefLabel "Ciudad Antigua"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5500>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5500" ;
+    skos:prefLabel "Mateare"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5505" ;
+    skos:prefLabel "San Francisco Libre"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5510" ;
+    skos:prefLabel "Tipitapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5520" ;
+    skos:prefLabel "Villa El Carmen"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5525" ;
+    skos:prefLabel "Managua"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5530" ;
+    skos:prefLabel "Ticuantepe"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5535>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5535" ;
+    skos:prefLabel "San Rafael del Sur"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5540>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5540" ;
+    skos:prefLabel "Ciudad Sandino"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:5545>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:5545" ;
+    skos:prefLabel "El Crucero"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:555>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:555" ;
+    skos:prefLabel "Quilalí"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:560>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:560" ;
+    skos:prefLabel "Wiwilí de Nueva Segovia"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6005" ;
+    skos:prefLabel "Nindirí"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6010>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6010" ;
+    skos:prefLabel "Masaya"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6015" ;
+    skos:prefLabel "Tisma"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6020" ;
+    skos:prefLabel "La Concepción"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6025>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6025" ;
+    skos:prefLabel "Masatepe"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6030>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6030" ;
+    skos:prefLabel "Nandasmo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6035>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6035" ;
+    skos:prefLabel "Catarina"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6040>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6040" ;
+    skos:prefLabel "San Juan de Oriente"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6045>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6045" ;
+    skos:prefLabel "Niquinohomo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6505" ;
+    skos:prefLabel "Comalapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6510" ;
+    skos:prefLabel "Juigalpa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6515" ;
+    skos:prefLabel "La Libertad"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6520" ;
+    skos:prefLabel "Santo Domingo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6525" ;
+    skos:prefLabel "Santo Tomás"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6530" ;
+    skos:prefLabel "San Pedro de Lóvago"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6535>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6535" ;
+    skos:prefLabel "Acoyapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6540>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6540" ;
+    skos:prefLabel "Villa Sandino"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6545>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6545" ;
+    skos:prefLabel "San Francisco de Cuapa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:6550>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:6550" ;
+    skos:prefLabel "El Coral"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7005" ;
+    skos:prefLabel "Diriá"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7010>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7010" ;
+    skos:prefLabel "Diriomo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7015" ;
+    skos:prefLabel "Granada"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7020" ;
+    skos:prefLabel "Nandaime"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7505" ;
+    skos:prefLabel "San Marcos"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7510" ;
+    skos:prefLabel "Jinotepe"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7515" ;
+    skos:prefLabel "Dolores"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7520" ;
+    skos:prefLabel "Diriamba"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7525" ;
+    skos:prefLabel "El Rosario"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7530" ;
+    skos:prefLabel "La Paz de Carazo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7535>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7535" ;
+    skos:prefLabel "Santa Teresa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:7540>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:7540" ;
+    skos:prefLabel "La Conquista"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8005>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8005" ;
+    skos:prefLabel "Tola"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8010>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8010" ;
+    skos:prefLabel "Belén"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8015>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8015" ;
+    skos:prefLabel "Potosí"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8020>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8020" ;
+    skos:prefLabel "Buenos Aires"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8025>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8025" ;
+    skos:prefLabel "Moyogalpa"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8030>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8030" ;
+    skos:prefLabel "Altagracia"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8035>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8035" ;
+    skos:prefLabel "San Jorge"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8040>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8040" ;
+    skos:prefLabel "Rivas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8045>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8045" ;
+    skos:prefLabel "San Juan del Sur"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8050>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8050" ;
+    skos:prefLabel "Cárdenas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8505" ;
+    skos:prefLabel "Morrito"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8510" ;
+    skos:prefLabel "El Almendro"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8515" ;
+    skos:prefLabel "San Miguelito"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8520" ;
+    skos:prefLabel "San Carlos"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8525" ;
+    skos:prefLabel "El Castillo"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:8530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:8530" ;
+    skos:prefLabel "San Juan de Nicaragua"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9105" ;
+    skos:prefLabel "Mulukukú"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9106" ;
+    skos:prefLabel "Siuna"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9107" ;
+    skos:prefLabel "Waspam"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9110>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9110" ;
+    skos:prefLabel "Puerto Cabezas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9115>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9115" ;
+    skos:prefLabel "Rosita"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9120>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9120" ;
+    skos:prefLabel "Bonanza"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9125>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9125" ;
+    skos:prefLabel "Waslala"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9135>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9135" ;
+    skos:prefLabel "Prinzapolka"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9305" ;
+    skos:prefLabel "Paiwas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9310>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9310" ;
+    skos:prefLabel "La Cruz de Río Grande"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9312>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9312" ;
+    skos:prefLabel "Desembocadura de Río Grande"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9315>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9315" ;
+    skos:prefLabel "Laguna de Perlas"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9316>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9316" ;
+    skos:prefLabel "El Tortuguero"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9320>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9320" ;
+    skos:prefLabel "El Rama"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9325>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9325" ;
+    skos:prefLabel "Muelle de Los Bueyes"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9330>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9330" ;
+    skos:prefLabel "Kukrahill"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9335>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9335" ;
+    skos:prefLabel "Corn Island"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9340>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9340" ;
+    skos:prefLabel "Bluefields"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9345>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9345" ;
+    skos:prefLabel "Nueva Guinea"@spa-Latn .
+
+<urn:mdciii:1603:16:558:2:9350>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:558:2:9350" ;
+    skos:prefLabel "El Ayote"@spa-Latn .
+
