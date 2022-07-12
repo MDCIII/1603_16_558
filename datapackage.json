@@ -4,208 +4,184 @@
   "resources": [
     {
       "name": "1603_16_558_0",
-      "path": "1603/16/558/0/1603_16_558_0.no1.tm.hxl.csv",
+      "path": "1603/16/558/0/1603_16_558_0.no1.bcp47.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "#item+conceptum+numerordinatio",
+            "name": "qcc-Zxxx-r-sU2200-s1603-snop",
             "type": "string"
           },
           {
-            "name": "#item+conceptum+codicem",
+            "name": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop",
+            "type": "string",
+            "constraints": {
+              "unique": true
+            }
+          },
+          {
+            "name": "qcc-Zxxx-r-sU2200-s5000-snop",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5001+rdf_s_u2200_s5000",
+            "name": "spa-Latn-r-pSKOS-pprefLabel-ps5000",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5000+ix_alt0",
+            "name": "qcc-Zxxx-r-pP-pp297-ps5000-x-p297",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+code+v_iso3166p1a2",
+            "name": "qcc-Zxxx-r-pP-pp577-ps1603",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+name",
+            "name": "qcc-Zxxx-r-pP-pp813-ps1603",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5000+ix_alt1",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5000+ix_alt2",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p577_s1603+rdf_t_xsd_datetime",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p813_s1603+rdf_t_xsd_datetime",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p2699_s1603+rdf_t_xsd_datetime",
+            "name": "qcc-Zxxx-r-pP-pp2699-ps1603",
             "type": "string"
           }
-        ]
+        ],
+        "primaryKey": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop"
       },
       "stats": {
-        "fields": 11,
+        "fields": 8,
         "rows": 1
       }
     },
     {
       "name": "1603_16_558_1",
-      "path": "1603/16/558/1/1603_16_558_1.no1.tm.hxl.csv",
+      "path": "1603/16/558/1/1603_16_558_1.no1.bcp47.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "#item+conceptum+numerordinatio",
+            "name": "qcc-Zxxx-r-sU2200-s1603-snop",
             "type": "string"
           },
           {
-            "name": "#item+conceptum+codicem",
+            "name": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop",
+            "type": "string",
+            "constraints": {
+              "unique": true
+            }
+          },
+          {
+            "name": "qcc-Zxxx-r-sU2200-s5000-snop",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5001+rdf_s_u2200_s5000",
+            "name": "qcc-Zxxx-r-sU2200-s5001-snop",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5002+rdf_p_obo_bfo171_s5000+rdf_s_u2200_s5001",
+            "name": "spa-Latn-r-pSKOS-pprefLabel-ps5001",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5001+ix_alt0",
+            "name": "qcc-Zxxx-r-pWDATA-pq7200235-ps5001-x-wdataq7200235",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm1+code+v_pcode",
+            "name": "spa-Latn-r-pSKOS-pprefLabel-ps5000",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm1+name",
+            "name": "qcc-Zxxx-r-pP-pp297-ps5000-x-p297",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5001+ix_alt1",
+            "name": "qcc-Zxxx-r-pP-pp577-ps1603",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5001+ix_alt2",
+            "name": "qcc-Zxxx-r-pP-pp813-ps1603",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5000",
-            "type": "string"
-          },
-          {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+code+v_iso3166p1a2",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p577_s1603+rdf_t_xsd_datetime",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p813_s1603+rdf_t_xsd_datetime",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p2699_s1603+rdf_t_xsd_datetime",
+            "name": "qcc-Zxxx-r-pP-pp2699-ps1603",
             "type": "string"
           }
-        ]
+        ],
+        "primaryKey": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop"
       },
       "stats": {
-        "fields": 14,
+        "fields": 11,
         "rows": 17
       }
     },
     {
       "name": "1603_16_558_2",
-      "path": "1603/16/558/2/1603_16_558_2.no1.tm.hxl.csv",
+      "path": "1603/16/558/2/1603_16_558_2.no1.bcp47.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
-            "name": "#item+conceptum+numerordinatio",
+            "name": "qcc-Zxxx-r-sU2200-s1603-snop",
             "type": "string"
           },
           {
-            "name": "#item+conceptum+codicem",
+            "name": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop",
+            "type": "string",
+            "constraints": {
+              "unique": true
+            }
+          },
+          {
+            "name": "qcc-Zxxx-r-sU2200-s5000-snop",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5001+rdf_s_u2200_s5000",
+            "name": "qcc-Zxxx-r-sU2200-s5001-snop",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5002+rdf_p_obo_bfo171_s5000+rdf_s_u2200_s5001",
+            "name": "qcc-Zxxx-r-sU2200-s5002-snop",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_p_obo_bfo124_s5002+rdf_p_obo_bfo171_s5001+rdf_s_u2200_s5002",
+            "name": "spa-Latn-r-pSKOS-pprefLabel-ps5002",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5002+ix_alt0",
+            "name": "qcc-Zxxx-r-pWDATA-pq7200235-ps5002-x-wdataq7200235",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm2+code+v_pcode",
+            "name": "spa-Latn-r-pSKOS-pprefLabel-ps5001",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm2+name",
+            "name": "qcc-Zxxx-r-pWDATA-pq7200235-ps5001-x-wdataq7200235",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5002+ix_alt1",
+            "name": "spa-Latn-r-pSKOS-pprefLabel-ps5000",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5002+ix_alt2",
+            "name": "qcc-Zxxx-r-pP-pp297-ps5000-x-p297",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5001",
+            "name": "qcc-Zxxx-r-pP-pp577-ps1603",
             "type": "string"
           },
           {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+adm1+code+v_pcode",
+            "name": "qcc-Zxxx-r-pP-pp813-ps1603",
             "type": "string"
           },
           {
-            "name": "#item+rem+i_spa+is_latn+rdf_p_skos_preflabel_s5000",
-            "type": "string"
-          },
-          {
-            "name": "#meta+rem+i_qcc+is_zxxx+ix_ERROR+country+code+v_iso3166p1a2",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p577_s1603+rdf_t_xsd_datetime",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p813_s1603+rdf_t_xsd_datetime",
-            "type": "string"
-          },
-          {
-            "name": "#item+rem+i_qcc+is_zxxx+rdf_p_p_p2699_s1603+rdf_t_xsd_datetime",
+            "name": "qcc-Zxxx-r-pP-pp2699-ps1603",
             "type": "string"
           }
-        ]
+        ],
+        "primaryKey": "qcc-Zxxx-r-aMDCIII-alatcodicem-anop"
       },
       "stats": {
-        "fields": 17,
+        "fields": 14,
         "rows": 153
       }
     }

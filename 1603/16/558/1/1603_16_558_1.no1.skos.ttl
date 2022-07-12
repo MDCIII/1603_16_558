@@ -3,6 +3,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
 
 <urn:mdciii:1603:16()>
     a skos:ConceptScheme ;
@@ -25,85 +26,102 @@
 <urn:mdciii:1603:16:558:1:10>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:10" ;
-    skos:prefLabel "Jinotega"@spa-Latn .
+    skos:prefLabel "Jinotega"@spa-Latn ;
+    wdata:q7200235 "NI10" .
 
 <urn:mdciii:1603:16:558:1:20>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:20" ;
-    skos:prefLabel "Madriz"@spa-Latn .
+    skos:prefLabel "Madriz"@spa-Latn ;
+    wdata:q7200235 "NI20" .
 
 <urn:mdciii:1603:16:558:1:25>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:25" ;
-    skos:prefLabel "Estelí"@spa-Latn .
+    skos:prefLabel "Estelí"@spa-Latn ;
+    wdata:q7200235 "NI25" .
 
 <urn:mdciii:1603:16:558:1:30>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:30" ;
-    skos:prefLabel "Chinandega"@spa-Latn .
+    skos:prefLabel "Chinandega"@spa-Latn ;
+    wdata:q7200235 "NI30" .
 
 <urn:mdciii:1603:16:558:1:35>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:35" ;
-    skos:prefLabel "León"@spa-Latn .
+    skos:prefLabel "León"@spa-Latn ;
+    wdata:q7200235 "NI35" .
 
 <urn:mdciii:1603:16:558:1:40>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:40" ;
-    skos:prefLabel "Matagalpa"@spa-Latn .
+    skos:prefLabel "Matagalpa"@spa-Latn ;
+    wdata:q7200235 "NI40" .
 
 <urn:mdciii:1603:16:558:1:5>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:5" ;
-    skos:prefLabel "Nueva Segovia"@spa-Latn .
+    skos:prefLabel "Nueva Segovia"@spa-Latn ;
+    wdata:q7200235 "NI05" .
 
 <urn:mdciii:1603:16:558:1:50>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:50" ;
-    skos:prefLabel "Boaco"@spa-Latn .
+    skos:prefLabel "Boaco"@spa-Latn ;
+    wdata:q7200235 "NI50" .
 
 <urn:mdciii:1603:16:558:1:55>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:55" ;
-    skos:prefLabel "Managua"@spa-Latn .
+    skos:prefLabel "Managua"@spa-Latn ;
+    wdata:q7200235 "NI55" .
 
 <urn:mdciii:1603:16:558:1:60>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:60" ;
-    skos:prefLabel "Masaya"@spa-Latn .
+    skos:prefLabel "Masaya"@spa-Latn ;
+    wdata:q7200235 "NI60" .
 
 <urn:mdciii:1603:16:558:1:65>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:65" ;
-    skos:prefLabel "Chontales"@spa-Latn .
+    skos:prefLabel "Chontales"@spa-Latn ;
+    wdata:q7200235 "NI65" .
 
 <urn:mdciii:1603:16:558:1:70>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:70" ;
-    skos:prefLabel "Granada"@spa-Latn .
+    skos:prefLabel "Granada"@spa-Latn ;
+    wdata:q7200235 "NI70" .
 
 <urn:mdciii:1603:16:558:1:75>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:75" ;
-    skos:prefLabel "Carazo"@spa-Latn .
+    skos:prefLabel "Carazo"@spa-Latn ;
+    wdata:q7200235 "NI75" .
 
 <urn:mdciii:1603:16:558:1:80>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:80" ;
-    skos:prefLabel "Rivas"@spa-Latn .
+    skos:prefLabel "Rivas"@spa-Latn ;
+    wdata:q7200235 "NI80" .
 
 <urn:mdciii:1603:16:558:1:85>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:85" ;
-    skos:prefLabel "Río San Juan"@spa-Latn .
+    skos:prefLabel "Río San Juan"@spa-Latn ;
+    wdata:q7200235 "NI85" .
 
 <urn:mdciii:1603:16:558:1:91>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:91" ;
-    skos:prefLabel "Región Autónoma Atlántico Norte"@spa-Latn .
+    skos:prefLabel "Región Autónoma Atlántico Norte"@spa-Latn ;
+    wdata:q7200235 "NI91" .
 
 <urn:mdciii:1603:16:558:1:93>
     a owl:Thing, skos:Concept ;
     rdfs:label "1603:16:558:1:93" ;
-    skos:prefLabel "Región Autónoma Atlántico Sur"@spa-Latn .
+    skos:prefLabel "Región Autónoma Atlántico Sur"@spa-Latn ;
+    wdata:q7200235 "NI93" .
 
